@@ -1,0 +1,38 @@
+.sponsor { 
+    &__content { 
+        text-align: right;
+        justify-self: right;
+    }
+ 
+    &__button  {
+        width: 25.25rem;
+        height: 24.9375rem; 
+
+        background-color: #31C5A1;
+        box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.50);
+        
+        border-radius: 1rem;
+        border: none;
+
+        transition: all 3s ease;
+        
+        &:hover {
+            background-color: #2abd98;
+            box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.70);
+            transform: scale(1.01);
+        }
+
+        * > & {
+            margin: auto;
+        }
+
+    }
+    
+    &__description { 
+        color: #808080;
+        font-size: 1.3125rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal; 
+    }
+}
