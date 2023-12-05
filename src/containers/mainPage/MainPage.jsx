@@ -5,14 +5,14 @@ import Footer from "../../components/footer/Footer";
 
 import "./mainPage.scss";
 
-const mainPageStatus = "imgP";
+const pageStatus = "donatePage";
 
 
 const MainPage = () => {
     return ( 
         <div>
             <Navigation />
-            <Promo mainPageStatus={mainPageStatus}/>
+            <Promo pageStatus={pageStatus}/>
             <Sponsor />
             <Footer />
         </div>

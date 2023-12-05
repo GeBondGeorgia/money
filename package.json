@@ -1,6 +1,6 @@
 {
   "name": "money",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -36,5 +36,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.jsx",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeBondGeorgia/money.git"
+  },
+  "author": "GeBond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeBondGeorgia/money/issues"
+  },
+  "homepage": "https://github.com/GeBondGeorgia/money#readme"
 }
