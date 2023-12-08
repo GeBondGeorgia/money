@@ -1,3 +1,10 @@
+# Thomthings about my pet project
+I wonted to create something about money.
+Money is thing wich we use every day. 
+In this project are some formulas and they can help you to calculate mortgage, procent etc. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
