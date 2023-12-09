@@ -1,29 +1,5 @@
 .promo {
-    
-    // mainPage styles
-    &__buttons {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 3rem;
-    }
-
-    &__button {
-        color: #B4A2FD; 
-        font-size: 2.1rem;
-        font-weight: 600;
-    
-        transition: all 3s ease;
-    
-        &:hover {
-          color: #180172;
-    
-          background-color: #A999EA;
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35); 
-          transform: scale(1.1);
-        }
-    }
-
-    // styles of both and donatePage styles
+  
     &__title {
       flex-wrap: nowrap;
 
@@ -33,28 +9,5 @@
         font-weight: 900;
       }
     }
+}
 
-    .promo__donate {
-
-      &-form__wrapper {
-        width: 573px;
-        height: 269px;
-        background-color: #31C5A1;
-        box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.50);
-      }
-
-      &-form__label {
-        font-size: 34px;
-        font-weight: 900;
-      }
-
-      &-form__input-field {
-        width: 292px;
-        height: 27px;
-        border-radius: 5px;
-        background: rgba(206, 211, 223, 0.55);
-      }
-      
-    }
-  }
-  

@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
@@ -39,7 +40,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.jsx",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GeBondGeorgia/money.git"
@@ -49,5 +49,5 @@
   "bugs": {
     "url": "https://github.com/GeBondGeorgia/money/issues"
   },
-  "homepage": "https://github.com/GeBondGeorgia/money#readme"
+  "homepage": "https://github.com/"
 }

@@ -1,0 +1,273 @@
+{
+  "currency": [
+    "GEL",
+    "USD",
+    "EUR"
+  ],
+  "blogs": [
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 1
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 2
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 3
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 4
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 5
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 6
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 7
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 8
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 9
+    },
+    {
+      "username": "",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 10
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 11
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 12
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 13
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 14
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 15
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "saddsa",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 16
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "saddsa",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 17
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "21132",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 18
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 19
+    },
+    {
+      "username": "asdasd",
+      "donateAmount": "",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 20
+    },
+    {
+      "username": "SADDadsdf",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "asdfsfad",
+      "id": 21
+    },
+    {
+      "username": "SADDadsdf",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "asdfsfad",
+      "id": 22
+    },
+    {
+      "username": "SADDadsdf",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "asdfsfad",
+      "id": 23
+    },
+    {
+      "username": "SADDadsdf",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "asdfsfad",
+      "id": 24
+    },
+    {
+      "username": "SADDadsdf",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "asdfsfad",
+      "id": 25
+    },
+    {
+      "username": "dasasd",
+      "donateAmount": "12",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 26
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 27
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 28
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 29
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 30
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 31
+    },
+    {
+      "username": "asddsa",
+      "donateAmount": "2134",
+      "currency": "USD",
+      "userAvatar": "",
+      "description": "",
+      "id": 32
+    },
+    {
+      "username": "123123",
+      "donateAmount": "123123",
+      "currency": "USD",
+      "userAvatar": "C:\\fakepath\\pexels-photo-1287550-170443095.jpeg",
+      "description": "",
+      "id": 33
+    }
+  ]
+}

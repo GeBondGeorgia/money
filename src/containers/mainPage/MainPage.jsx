@@ -1,21 +1,26 @@
+
 import Navigation from "../../components/navigation/Navigation"
 import Promo from "../../components/promo/Promo";
 import Sponsor from "../../components/sponsor/Sponsor";
 import Footer from "../../components/footer/Footer";
+// import ErrorPage from "../errorPage/ErrorPage";
 
-import "./mainPage.scss";
 
-const pageStatus = "donatePage";
 
 
 const MainPage = () => {
+    const pageStatus = "promoDonateForm";
+
+
     return ( 
-        <div>
+        <div className="mainPage">
             <Navigation />
             <Promo pageStatus={pageStatus}/>
             <Sponsor />
             <Footer />
+        
         </div>
+
     )
 }
 
