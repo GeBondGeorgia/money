@@ -98,6 +98,7 @@ const PromoDonateForm = () => {
 
   const { username, donateAmount, currency, userAvatar, description } = formData;
   if (fetchError) {
+    console.log(fetchError);
     return(
         <div className="promo__donate-form__wrapper">
             <h1 className="promo__donate-form-errorTitle">ERROR</h1>
