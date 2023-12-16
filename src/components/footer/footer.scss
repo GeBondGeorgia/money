@@ -1,19 +1,18 @@
 .footer {
-    margin-left: 1rem;
-    &__link { 
-        color: #808080;
-        font-size: 1.3rem;
-        font-weight: 200;
+	margin-left: 1rem;
+	&__link {
+		color: #808080;
+		font-size: 1.3rem;
+		font-weight: 200;
 
-        display: block;
-        text-decoration: none;
-        
-        transition: all 10s ease;
-      
-        &:hover {
-            font-size: 1.35rem;
-            font-weight: 800;
-        }
-    }
-    
+		display: block;
+		text-decoration: none;
+
+		transition: all 10s ease;
+
+		&:hover {
+			font-size: 1.35rem;
+			font-weight: 800;
+		}
+	}
 }

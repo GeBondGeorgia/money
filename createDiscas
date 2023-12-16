@@ -1,0 +1,5 @@
+window.screen.availHeight = 10;  - why isn't working 
+
+
+Realize scroll() scrollTo()
+Realize history.back() and forward() - in error page

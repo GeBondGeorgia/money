@@ -1,22 +1,23 @@
 .promo {
-    &__buttons {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
-    }
-  
-    &__button {
-        color: #B4A2FD; 
-        font-size: 2.1rem;
-        font-weight: 600;
+	&__buttons {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3rem;
+	}
 
-        transition: all 3s ease;
-        
-        &:hover {
-            color: #180172;
-            background-color: #A999EA;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35); 
-            transform: scale(1.1);
-        }
-    }
-}   
+	&__button {
+		color: #b4a2fd;
+		font-size: 2.1rem;
+		font-weight: 600;
+		text-decoration: none;
+
+		transition: all 3s ease;
+
+		&:hover {
+			color: #180172;
+			background-color: #a999ea;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+			transform: scale(1.1);
+		}
+	}
+}

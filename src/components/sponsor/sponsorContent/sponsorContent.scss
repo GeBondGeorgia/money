@@ -1,0 +1,51 @@
+.sponsor {
+	&__content {
+		text-align: right;
+		justify-self: right;
+	}
+
+	&__user {
+		width: 25.25rem;
+		height: 24.9375rem;
+
+		background-color: #31c5a1;
+		box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+
+		border-radius: 1rem;
+		border: none;
+
+		transition: all 3s ease;
+
+		&:hover {
+			background-color: #2abd98;
+			box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.7);
+			transform: scale(1.01);
+		}
+
+		* > & {
+			margin: auto;
+		}
+		&-content {
+			width: 100%;
+			opacity: 1;
+			transition: opacity 7s, width 2.5s ease;
+			&--changing {
+				opacity: 0;
+				width: 10%;
+			}
+		}
+	}
+
+	&__description {
+		color: #808080;
+		font-size: 1.3125rem;
+		font-style: normal;
+		font-weight: 800;
+		line-height: normal;
+	}
+	&__img {
+		width: 144px;
+		height: 149px;
+		border-radius: 100px;
+	}
+}

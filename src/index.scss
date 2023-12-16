@@ -1,67 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-  background: #FFF; 
-  font-style: Roboto;
-  overflow: auto;
-} 
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	background: #fff;
+	font-style: Roboto;
+	overflow: auto;
 }
 
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 
-.container { 
-  display: flex;
-  justify-content: space-between;
-  padding: 6.34rem;
-  padding-top: 0;
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 6.34rem;
+	padding-top: 0;
 }
 
 .button {
-    width: 17.07825rem;
-    height: 5.56394rem; 
-    background-color: #31C5A1; 
-    border: none;
-    border-radius: 9px;
-  
+	width: 17.07825rem;
+	height: 5.56394rem;
+	background-color: #31c5a1;
+
+	border: none;
+	border-radius: 9px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
 }
 
 .title {
-  color: #B4A2FD;
-  font-size: 2.25rem;
-  font-weight: 900;
+	color: #b4a2fd;
+	font-size: 2.25rem;
+	font-weight: 900;
 }
 
 .subtitle {
-  color: #A999EA;
-  font-size: 2.1875rem;
-  font-weight: 600;
+	color: #a999ea;
+	font-size: 2.1875rem;
+	font-weight: 600;
 }
 
-.hide { 
-  display: none;
+.hide {
+	display: none;
 }
 
-.error-message { 
-  width: 100%;
+.error-message {
+	width: 100%;
 }
 
 .black-layer.active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: 1; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
 }

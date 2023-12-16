@@ -1,20 +1,28 @@
-.navigation { 
-    display: flex;
+.navigation {
+	display: flex;
 
-    .items {
-        margin:  auto;
-        display: flex;
-        gap: 1.12rem;
-        list-style: none;
+	.items {
+		margin: auto;
+		display: flex;
+		gap: 1.12rem;
+		list-style: none;
 
-        .item {
-            color: #7C7C7C; 
-            font-size: 1.375rem;
-            font-weight: 700;
-        }
-        
-        .active  {
-            color: #B4A2FD;
-         }
-    }
+		.item {
+			text-decoration: none;
+			color: #7c7c7c;
+			font-size: 1.375rem;
+			font-weight: 700;
+
+			transition: all 1s ease-in-out;
+			&:hover {
+				color: #7868b7;
+				font-weight: 800;
+				font-size: 1.395rem;
+			}
+
+			&.active {
+				color: #b4a2fd;
+			}
+		}
+	}
 }

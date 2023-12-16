@@ -1,35 +1,26 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense } from "react";
+const PromoCalculatorButtons = lazy(() =>
+	import("./promoCalculatorButtons/PromoCalculatorButtons")
+);
+const PromoDonateForm = lazy(() => import("./promoDonateForm/PromoDonateForm"));
 
-import PromoCalculatorButtons from "./promoCalculatorButtons/PromoCalculatorButtons";
-import PromoDonateForm from "./promoDonateForm/PromoDonateForm";
-
-const PromoLeftItem = ({page}) => {
-    const [pageStatus, setPageStatus] = useState(null);
-// do page status with react router (get page from status from react router) COMMENT
-
-    useEffect(() => {
-        if ( page === "promoCalculator" || page === "promoDonateForm") {
-            setPageStatus(page);
-        } else {
-            console.warn("Invalid initial page name: ", page);
-            setPageStatus('promoCalculatorButtons');
-        } 
-    },[page]);
-
-    if ( pageStatus === "promoCalculatorButtons") {
-        return (<PromoCalculatorButtons />);
-        
-    } else if (pageStatus === "promoDonateForm") { 
-        return (
-            <div className="promo__left">
-                <h1 className="promo__title promo__title-donate">Donate Form</h1>
-                
-                <PromoDonateForm />
-            </div>
-        );
-    } 
-}
+const PromoLeftItem = () => {
+	if (window.location.pathname === "/promo-donate-form") {
+		return (
+			<div className="promo__left">
+				<h1 className="promo__title promo__title-donate">Donate Form</h1>
+				<Suspense fallback={<div>LOADING...</div>}>
+					<PromoDonateForm />
+				</Suspense>
+			</div>
+		);
+	} else if (window.location.pathname === "/promo-calculator-menu" || "/") {
+		return (
+			<Suspense fallback={<div>LOADING...</div>}>
+				<PromoCalculatorButtons />
+			</Suspense>
+		);
+	}
+};
 
 export default PromoLeftItem;
-
-
